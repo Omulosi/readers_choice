@@ -6,6 +6,8 @@ from cache import DiskCache
 
 USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36'
 
+API_KEY = "65032887"
+
 
 headers = {
     'User-Agent': USER_AGENT,
@@ -20,7 +22,7 @@ headers = {
     "Sec-Fetch-Mode": 'cors',
     "Sec-Fetch-Site": "same-origin",
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36",
-    "X-Api-Key": "65032887",
+    "X-Api-Key": API_KEY,
     "X-Fingerprint": "DNT",
     "X-Organization-Id": "2293",
     "X-Organization-Promotion-Id": "808462",

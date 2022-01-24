@@ -48,7 +48,7 @@ def scraper(session, headers=None):
         rank = winner.get('rank')
         
         DATA.append((section, category, name, address, rank))
-        # DATA = sorted(DATA, key=lambda item: item[0])
+        DATA = sorted(DATA, key=lambda item: item[1])
         
     
     print(f"\nTotal items: {len(DATA)}")
